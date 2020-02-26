@@ -51,7 +51,7 @@ def send_metrics(config, storage, user_agent="loudmld"):
     os_release = MyConfigParser()
     os_release.read("/etc/os-release")
 
-    url = 'http://telemetry.loudml.io/api'
+    url = 'invalid'
     data = {
         'host_id': my_host_id(),
         'loudml': {
