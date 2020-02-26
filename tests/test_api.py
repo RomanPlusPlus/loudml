@@ -176,7 +176,7 @@ class AppTests(unittest.TestCase):
         else:
             scheme = 'http://'
 
-        return scheme + self.loudml_addr + url
+        return 'invalid'
 
     def _wait_job(self, job_id):
         state = None
