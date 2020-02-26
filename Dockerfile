@@ -55,5 +55,5 @@ fi ; }
 
 ENV PATH=/root/.local/bin:$PATH
 CMD /bin/bash -c loudmld
-LABEL maintainer="packaging@loudml.io"
+LABEL maintainer="packaging_loudml_io.example.com"
 EXPOSE 8077
