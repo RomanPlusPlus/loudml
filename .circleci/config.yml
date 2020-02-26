@@ -616,7 +616,7 @@ jobs:
           command: |
             cd loudml-docs
             ./build_docs.pl --all
-            git config user.email "packaging@loudml.io"
+            git config user.email "invalid@example.com"
             git config user.name "circleci"
             git checkout -B ${CIRCLE_BRANCH}
             git add html
